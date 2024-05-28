@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="./css/styçe.css">
 </head>
 <body>
-    <input type="text" id="input" onkeyup="pesquisar()" placeholder="Pesquise aqui!">
 
+<div class="centered-container">
+    
+    <input type="text" class="centered-input" id="input" onkeyup="pesquisar()" placeholder="Pesquise aqui!">
 
-    <ul>
+    <ul class="centered-list">
         <li class="animais">Gato</li>
         <li class="animais">Cachorro</li>
         <li class="animais">Elefante</li>
@@ -20,8 +23,8 @@
         <li class="animais">Calopsita</li>
         <li class="animais">Passaros</li>
     </ul>
+</div>
 
     <script src="js/index.js"></script>
-
 </body>
 </html>
